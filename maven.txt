@@ -1,0 +1,41 @@
+add
+commit
+push
+
+source code:Build management tool
+
+java --version--check available java or not
+
+apt install default-jdk -y
+
+cd /usr/lib/jvm/java-8-openjdk-amd64
+
+nano /home/ubuntu/.bashrc(all setting resource file)
+or cat .bashrc in /home/ubuntu/
+
+in last write comments
+##Start: Setting Java Path
+//copy paste
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+export PATH=$(PATH):$(JAVA_HOME)/bin
+
+##End: Setting Java Path
+cotrol+x+y
+
+ echo $JAVA_HOME//check available
+o/p:
+/usr/lib/jvm/java-8-openjdk-amd64
+(env variable)
+
+apt install -y maven
+if not then 
+
+
+
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64(Require for maven to install)
+
+export PATH=$(PATH):$(JAVA_HOME)/bin
+
+apt install -y maven

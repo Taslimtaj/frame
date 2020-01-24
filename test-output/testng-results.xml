@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134645" started-at="2020-01-21T09:52:47Z" finished-at="2020-01-21T09:55:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="134645" started-at="2020-01-21T09:52:47Z" finished-at="2020-01-21T09:55:02Z">
+      <class name="com.actitime.Tests.VerifyVersionTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.actitime.Tests.VerifyVersionTest@2ac1fdc4]" name="precondition" is-config="true" duration-ms="33921" started-at="2020-01-21T09:53:58Z" finished-at="2020-01-21T09:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="testVerifyVersion()[pri:3, instance:com.actitime.Tests.VerifyVersionTest@2ac1fdc4]" name="testVerifyVersion" duration-ms="0" started-at="2020-01-21T09:54:32Z" finished-at="2020-01-21T09:54:32Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/WorkbookFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/WorkbookFactory
+at com.actitime.Generic.Exceldata.getData(Exceldata.java:19)
+at com.actitime.Tests.VerifyVersionTest.testVerifyVersion(VerifyVersionTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.actitime.Tests.VerifyVersionTest@2ac1fdc4]" name="postcondition" is-config="true" duration-ms="281" started-at="2020-01-21T09:54:32Z" finished-at="2020-01-21T09:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyVersion status=FAILURE method=VerifyVersionTest.testVerifyVersion()[pri:3, instance:com.actitime.Tests.VerifyVersionTest@2ac1fdc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.actitime.Tests.VerifyVersionTest -->
+      <class name="com.actitime.Tests.VerifyBuldTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.actitime.Tests.VerifyBuldTest@71e7a66b]" name="precondition" is-config="true" duration-ms="24735" started-at="2020-01-21T09:54:33Z" finished-at="2020-01-21T09:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="testVerifyBuildNo()[pri:4, instance:com.actitime.Tests.VerifyBuldTest@71e7a66b]" name="testVerifyBuildNo" duration-ms="0" started-at="2020-01-21T09:54:57Z" finished-at="2020-01-21T09:54:57Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/WorkbookFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/WorkbookFactory
+at com.actitime.Generic.Exceldata.getData(Exceldata.java:19)
+at com.actitime.Tests.VerifyBuldTest.testVerifyBuildNo(VerifyBuldTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBuildNo -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.actitime.Tests.VerifyBuldTest@71e7a66b]" name="postcondition" is-config="true" duration-ms="4371" started-at="2020-01-21T09:54:57Z" finished-at="2020-01-21T09:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyBuildNo status=FAILURE method=VerifyBuldTest.testVerifyBuildNo()[pri:4, instance:com.actitime.Tests.VerifyBuldTest@71e7a66b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.actitime.Tests.VerifyBuldTest -->
+      <class name="com.actitime.Tests.InvalidLoginTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.actitime.Tests.InvalidLoginTest@224aed64]" name="precondition" is-config="true" duration-ms="33442" started-at="2020-01-21T09:52:47Z" finished-at="2020-01-21T09:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="testInvalidLogin()[pri:0, instance:com.actitime.Tests.InvalidLoginTest@224aed64]" name="testInvalidLogin" duration-ms="16" started-at="2020-01-21T09:53:21Z" finished-at="2020-01-21T09:53:21Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/WorkbookFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/WorkbookFactory
+at com.actitime.Generic.Exceldata.getData(Exceldata.java:19)
+at com.actitime.Tests.InvalidLoginTest.testInvalidLogin(InvalidLoginTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.WorkbookFactory
+at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.actitime.Tests.InvalidLoginTest@224aed64]" name="postcondition" is-config="true" duration-ms="4345" started-at="2020-01-21T09:53:21Z" finished-at="2020-01-21T09:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=FAILURE method=InvalidLoginTest.testInvalidLogin()[pri:0, instance:com.actitime.Tests.InvalidLoginTest@224aed64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.actitime.Tests.InvalidLoginTest -->
+      <class name="com.actitime.Tests.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.actitime.Tests.ValidLoginLogoutTest@c39f790]" name="precondition" is-config="true" duration-ms="28983" started-at="2020-01-21T09:53:25Z" finished-at="2020-01-21T09:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="testValidLoginLogout()[pri:1, instance:com.actitime.Tests.ValidLoginLogoutTest@c39f790]" name="testValidLoginLogout" duration-ms="1" started-at="2020-01-21T09:53:54Z" finished-at="2020-01-21T09:53:54Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/WorkbookFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/WorkbookFactory
+at com.actitime.Generic.Exceldata.getData(Exceldata.java:19)
+at com.actitime.Tests.ValidLoginLogoutTest.testValidLoginLogout(ValidLoginLogoutTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.actitime.Tests.ValidLoginLogoutTest@c39f790]" name="postcondition" is-config="true" duration-ms="4334" started-at="2020-01-21T09:53:54Z" finished-at="2020-01-21T09:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginLogout status=FAILURE method=ValidLoginLogoutTest.testValidLoginLogout()[pri:1, instance:com.actitime.Tests.ValidLoginLogoutTest@c39f790] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.actitime.Tests.ValidLoginLogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
